@@ -1,0 +1,26 @@
+package vnt.vn.sb_ecom.payload;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+import java.util.Locale;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OrderDTO {
+
+    private Long orderId;
+    private String email;
+    List<OrderItemDTO> orderItems;
+    Locale orderLocale;
+    private PaymentDTO payment;
+    private Double totalAmount;
+    private String orderStatus;
+    private Long addressId;
+
+
+
+}
