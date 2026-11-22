@@ -2,3 +2,4 @@ DATASOURCE_URL=jdbc:postgresql://localhost:5432/sb-ecom
 DATASOURCE_USER=nguyenvutriet
 DATASOURCE_PASSWORD=02052005
 FRONTEND_URL=http://localhost:5173
+STRIPE_SECRET_KEY="your_actual_stripe_secret_key"
